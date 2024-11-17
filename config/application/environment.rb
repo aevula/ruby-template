@@ -7,4 +7,6 @@ module Application
   config[:development?] = config.app_env == :development
   config[:test?] = config.app_env == :test
   config[:ci?] = config.app_env == :ci
+
+  config.name = :secret_santa_tg_bot
 end

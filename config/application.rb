@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require './config/boot'
+
+require 'ostruct'
 require 'require_all'
 
 # Require the gems listed in Gemfile, including any gems
