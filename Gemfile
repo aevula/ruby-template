@@ -12,8 +12,6 @@ gem 'ostruct'
 
 gem 'semantic_logger', require: false
 
-gem 'wirble', require: false
-
 group :development, :test do
   gem 'byebug'
 end
